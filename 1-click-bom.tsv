@@ -1,0 +1,14 @@
+References	Qty	Description	Digikey	Mouser	RS	Newark	Farnell
+SW1, SW2	1	SlideSwitch					
+C1,C6,C7,C8	4	10uF, 1206					
+C2,C3,C4,C5	4	100nF, 1206					
+R1	1	Resistor, 500R, 1206					
+R2,R3,R4	3	Resistor, 10k, 1206					
+R6,R7,R8	1	Resistor					
+J1, J2	1	AUIDO PLUG 3.5mm  SwitchCraft_2B					
+BT1,BT2	1	Battery Holder SMD					
+U1	1	PT2399					
+RV1	1	Potentiometer					
+RV2	1	Potentiometer					
+RV3	1	Potentiometer					
+D1	1	TOPLED Reverse blue					
