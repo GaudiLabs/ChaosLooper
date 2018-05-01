@@ -1,0 +1,601 @@
+EESchema Schematic File Version 2
+LIBS:ChaosLibrary
+LIBS:ChaosLooper-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ChaosLooper-rescue:PT2399-RESCUE-ChaosLooper U1
+U 1 1 59030B39
+P 3450 4050
+F 0 "U1" H 3200 4700 50  0000 C CNN
+F 1 "PT2399" H 3500 4700 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:DIL16_SMD" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR10
+U 1 1 59030F59
+P 9650 2900
+F 0 "#PWR10" H 9650 2750 50  0001 C CNN
+F 1 "VCC" H 9667 3073 50  0000 C CNN
+F 2 "" H 9650 2900 50  0001 C CNN
+F 3 "" H 9650 2900 50  0001 C CNN
+	1    9650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR9
+U 1 1 59030FB4
+P 8600 5200
+F 0 "#PWR9" H 8600 4950 50  0001 C CNN
+F 1 "GND" H 8605 5027 50  0000 C CNN
+F 2 "" H 8600 5200 50  0001 C CNN
+F 3 "" H 8600 5200 50  0001 C CNN
+	1    8600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR2
+U 1 1 59030FDB
+P 2300 3950
+F 0 "#PWR2" H 2300 3700 50  0001 C CNN
+F 1 "GND" H 2305 3777 50  0000 C CNN
+F 2 "" H 2300 3950 50  0001 C CNN
+F 3 "" H 2300 3950 50  0001 C CNN
+	1    2300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR4
+U 1 1 5903100C
+P 2450 3400
+F 0 "#PWR4" H 2450 3250 50  0001 C CNN
+F 1 "VCC" H 2467 3573 50  0000 C CNN
+F 2 "" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3400 50  0001 C CNN
+	1    2450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R2
+U 1 1 59031053
+P 4550 3550
+F 0 "R2" V 4450 3550 50  0000 C CNN
+F 1 "10k" V 4550 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4480 3550 50  0001 C CNN
+F 3 "" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R3
+U 1 1 5903116F
+P 4550 3700
+F 0 "R3" V 4650 3700 50  0000 C CNN
+F 1 "10k" V 4550 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4480 3700 50  0001 C CNN
+F 3 "" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C8
+U 1 1 5903124E
+P 6200 3850
+F 0 "C8" V 5948 3850 50  0000 C CNN
+F 1 "10uF" V 6039 3850 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6238 3700 50  0001 C CNN
+F 3 "" H 6200 3850 50  0001 C CNN
+	1    6200 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L GaudiLabsPartsLibrary:PLUG_3_5_SMD J2
+U 1 1 590315A7
+P 6750 3500
+F 0 "J2" H 7228 3447 60  0000 L CNN
+F 1 "OUT" H 7228 3341 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PLUG3_5_SwitchCraft_2B" H 6750 3500 60  0001 C CNN
+F 3 "" H 6750 3500 60  0000 C CNN
+	1    6750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR8
+U 1 1 5903167E
+P 7000 4200
+F 0 "#PWR8" H 7000 3950 50  0001 C CNN
+F 1 "GND" H 7005 4027 50  0000 C CNN
+F 2 "" H 7000 4200 50  0001 C CNN
+F 3 "" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R5
+U 1 1 59031A05
+P 5000 4150
+F 0 "R5" V 4900 4150 50  0000 C CNN
+F 1 "10k" V 5000 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4930 4150 50  0001 C CNN
+F 3 "" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R4
+U 1 1 590324B0
+P 4550 3950
+F 0 "R4" V 4650 3950 50  0000 C CNN
+F 1 "10k" V 4550 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4480 3950 50  0001 C CNN
+F 3 "" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:POT-RESCUE-ChaosLooper VOL_POT1
+U 1 1 59032803
+P 4300 3050
+F 0 "VOL_POT1" H 4230 3096 50  0000 R CNN
+F 1 "100k_log (or less,  20k)" H 4230 3005 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POTI_PCB" H 4300 3050 50  0001 C CNN
+F 3 "" H 4300 3050 50  0001 C CNN
+	1    4300 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L ChaosLooper-rescue:POT-RESCUE-ChaosLooper FILTER_POT1
+U 1 1 59032D36
+P 4500 4950
+F 0 "FILTER_POT1" H 4800 4600 50  0000 R CNN
+F 1 "10k_log" H 4650 4550 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POTI_PCB" H 4500 4950 50  0001 C CNN
+F 3 "" H 4500 4950 50  0001 C CNN
+	1    4500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C3
+U 1 1 59032E6A
+P 2850 4800
+F 0 "C3" H 2750 4950 50  0000 R CNN
+F 1 "100nF" H 2750 5050 50  0000 R CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2888 4650 50  0001 C CNN
+F 3 "" H 2850 4800 50  0001 C CNN
+	1    2850 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ChaosLooper-rescue:CP-RESCUE-ChaosLooper C6
+U 1 1 59033193
+P 5200 3950
+F 0 "C6" H 5318 3996 50  0000 L CNN
+F 1 "10uF" H 5318 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5238 3800 50  0001 C CNN
+F 3 "" H 5200 3950 50  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C2
+U 1 1 59033334
+P 2600 4800
+F 0 "C2" H 2550 4950 50  0000 R CNN
+F 1 "100nF" H 2550 5050 50  0000 R CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2638 4650 50  0001 C CNN
+F 3 "" H 2600 4800 50  0001 C CNN
+	1    2600 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ChaosLooper-rescue:POT-RESCUE-ChaosLooper SPEED_POT1
+U 1 1 59033408
+P 2300 5000
+F 0 "SPEED_POT1" H 2230 5046 50  0000 R CNN
+F 1 "250k_log" H 2230 4955 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:POTI_PCB" H 2300 5000 50  0001 C CNN
+F 3 "" H 2300 5000 50  0001 C CNN
+	1    2300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR6
+U 1 1 5903350D
+P 2850 5400
+F 0 "#PWR6" H 2850 5150 50  0001 C CNN
+F 1 "GND" H 2855 5227 50  0000 C CNN
+F 2 "" H 2850 5400 50  0001 C CNN
+F 3 "" H 2850 5400 50  0001 C CNN
+	1    2850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR5
+U 1 1 59033584
+P 2600 5400
+F 0 "#PWR5" H 2600 5150 50  0001 C CNN
+F 1 "GND" H 2605 5227 50  0000 C CNN
+F 2 "" H 2600 5400 50  0001 C CNN
+F 3 "" H 2600 5400 50  0001 C CNN
+	1    2600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R6
+U 1 1 59033BE8
+P 5750 2800
+F 0 "R6" V 5543 2800 50  0000 C CNN
+F 1 "10k" V 5634 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5680 2800 50  0001 C CNN
+F 3 "" H 5750 2800 50  0001 C CNN
+	1    5750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C7
+U 1 1 59033BEE
+P 6200 2800
+F 0 "C7" V 5948 2800 50  0000 C CNN
+F 1 "10uF" V 6039 2800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6238 2650 50  0001 C CNN
+F 3 "" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GaudiLabsPartsLibrary:PLUG_3_5_SMD J1
+U 1 1 59033BF4
+P 6750 2450
+F 0 "J1" H 7228 2397 60  0000 L CNN
+F 1 "IN" H 7228 2291 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:PLUG3_5_SwitchCraft_2B" H 6750 2450 60  0001 C CNN
+F 3 "" H 6750 2450 60  0000 C CNN
+	1    6750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR7
+U 1 1 59033BFA
+P 7000 2950
+F 0 "#PWR7" H 7000 2700 50  0001 C CNN
+F 1 "GND" H 7005 2777 50  0000 C CNN
+F 2 "" H 7000 2950 50  0001 C CNN
+F 3 "" H 7000 2950 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:CP-RESCUE-ChaosLooper C1
+U 1 1 59035C38
+P 1900 3900
+F 0 "C1" H 1650 4000 50  0000 L CNN
+F 1 "10uF" H 1600 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1938 3750 50  0001 C CNN
+F 3 "" H 1900 3900 50  0001 C CNN
+	1    1900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR1
+U 1 1 59035CFC
+P 1900 4100
+F 0 "#PWR1" H 1900 3850 50  0001 C CNN
+F 1 "GND" H 1905 3927 50  0000 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R1
+U 1 1 59035E29
+P 2300 4550
+F 0 "R1" H 2230 4504 50  0000 R CNN
+F 1 "500R" H 2230 4595 50  0000 R CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2230 4550 50  0001 C CNN
+F 3 "" H 2300 4550 50  0001 C CNN
+	1    2300 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR3
+U 1 1 5903708A
+P 2300 5400
+F 0 "#PWR3" H 2300 5150 50  0001 C CNN
+F 1 "GND" H 2305 5227 50  0000 C CNN
+F 2 "" H 2300 5400 50  0001 C CNN
+F 3 "" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C4
+U 1 1 5903982D
+P 4100 4850
+F 0 "C4" H 4250 4750 50  0000 R CNN
+F 1 "100nF" H 4300 4950 50  0000 R CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4138 4700 50  0001 C CNN
+F 3 "" H 4100 4850 50  0001 C CNN
+	1    4100 4850
+	0    -1   -1   0   
+$EndComp
+Text Notes 6900 2200 0    60   ~ 0
+IN
+Text Notes 6950 3300 0    60   ~ 0
+OUT
+$Comp
+L ChaosLooper-rescue:C-RESCUE-ChaosLooper C5
+U 1 1 59032C31
+P 4500 4600
+F 0 "C5" H 4400 4500 50  0000 R CNN
+F 1 "100nF" H 4450 4700 50  0000 R CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4538 4450 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L ChaosLooper-rescue:LED-RESCUE-ChaosLooper D1
+U 1 1 59052141
+P 10200 4000
+F 0 "D1" V 10238 3883 50  0000 R CNN
+F 1 "LED" V 10147 3883 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:TOPLED_R" H 10200 4000 50  0001 C CNN
+F 3 "" H 10200 4000 50  0001 C CNN
+	1    10200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ChaosLooper-rescue:R-RESCUE-ChaosLooper R8
+U 1 1 590526C6
+P 10200 3550
+F 0 "R8" V 9993 3550 50  0000 C CNN
+F 1 "R" V 10084 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 10130 3550 50  0001 C CNN
+F 3 "" H 10200 3550 50  0001 C CNN
+	1    10200 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR11
+U 1 1 59052D04
+P 10200 5100
+F 0 "#PWR11" H 10200 4850 50  0001 C CNN
+F 1 "GND" H 10205 4927 50  0000 C CNN
+F 2 "" H 10200 5100 50  0001 C CNN
+F 3 "" H 10200 5100 50  0001 C CNN
+	1    10200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BatteryCell2x BT2
+U 1 1 5A919AC0
+P 8650 4500
+F 0 "BT2" H 8500 4550 50  0000 L CNN
+F 1 "BatteryCell2x" H 8250 4800 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:BAT_HOLDER_AAA_DOUBLE" V 8400 4510 50  0001 C CNN
+F 3 "" V 8400 4510 50  0001 C CNN
+	1    8650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch SW1
+U 1 1 5A91C049
+P 3800 5550
+F 0 "SW1" H 3600 5850 60  0000 C CNN
+F 1 "Switch" H 4000 5850 60  0000 C CNN
+F 2 "GaudiLabsFootPrints:SWITCH_SLIDE" H 3800 5550 60  0001 C CNN
+F 3 "" H 3800 5550 60  0001 C CNN
+	1    3800 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch SW2
+U 1 1 5A91C3B3
+P 9000 3250
+F 0 "SW2" H 8800 3550 60  0000 C CNN
+F 1 "Switch" H 9200 3550 60  0000 C CNN
+F 2 "GaudiLabsFootPrints:SWITCH_SLIDE" H 9000 3250 60  0001 C CNN
+F 3 "" H 9000 3250 60  0001 C CNN
+	1    9000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5050 8600 5200
+Wire Wire Line
+	2950 3950 2800 3950
+Wire Wire Line
+	2800 3950 2800 3850
+Connection ~ 2800 3850
+Wire Wire Line
+	2950 3550 2450 3550
+Wire Wire Line
+	2450 3550 2450 3400
+Wire Wire Line
+	6650 3850 6350 3850
+Wire Wire Line
+	7000 3850 7000 4200
+Wire Wire Line
+	3950 3550 4400 3550
+Wire Wire Line
+	4400 3650 4400 3700
+Wire Wire Line
+	3950 3650 4400 3650
+Wire Wire Line
+	5200 4150 5200 4100
+Wire Wire Line
+	3950 3850 6050 3850
+Wire Wire Line
+	5200 2800 5200 3800
+Wire Wire Line
+	5200 3700 4700 3700
+Connection ~ 5200 3700
+Wire Wire Line
+	5200 3550 4700 3550
+Connection ~ 4300 3850
+Wire Wire Line
+	4150 2900 4150 3950
+Connection ~ 4150 3950
+Wire Wire Line
+	4500 5200 4500 5100
+Wire Wire Line
+	3950 4250 4500 4250
+Wire Wire Line
+	2950 4550 2850 4550
+Wire Wire Line
+	2950 4450 2600 4450
+Wire Wire Line
+	2850 4950 2850 5400
+Wire Wire Line
+	2600 4950 2600 5400
+Wire Wire Line
+	6650 2800 6350 2800
+Wire Wire Line
+	6050 2800 5900 2800
+Wire Wire Line
+	7000 2800 7000 2950
+Connection ~ 5200 3550
+Wire Wire Line
+	1900 4100 1900 4050
+Wire Wire Line
+	1900 3750 1900 3650
+Wire Wire Line
+	1900 3650 2950 3650
+Wire Wire Line
+	2950 4250 2300 4250
+Wire Wire Line
+	2300 4250 2300 4400
+Wire Wire Line
+	2450 5000 2450 5200
+Wire Wire Line
+	2450 5200 2300 5200
+Wire Wire Line
+	2300 5150 2300 5400
+Wire Wire Line
+	2600 4450 2600 4650
+Wire Wire Line
+	2850 4550 2850 4650
+Wire Wire Line
+	2300 4700 2300 4850
+Connection ~ 2300 5200
+Wire Wire Line
+	2300 3850 2950 3850
+Wire Wire Line
+	2300 3850 2300 3950
+Wire Wire Line
+	5200 4150 5150 4150
+Wire Wire Line
+	3950 3950 4400 3950
+Wire Wire Line
+	4500 4250 4500 4450
+Wire Wire Line
+	5200 2800 5600 2800
+Wire Wire Line
+	3950 4150 4850 4150
+Wire Wire Line
+	4800 5200 4500 5200
+Connection ~ 4800 4150
+Wire Wire Line
+	4800 3950 4700 3950
+Wire Wire Line
+	4800 4950 4650 4950
+Connection ~ 4800 4950
+Wire Wire Line
+	4500 4750 4500 4800
+Wire Wire Line
+	4800 3950 4800 5200
+Wire Wire Line
+	3950 4750 3950 4550
+Wire Wire Line
+	8700 3250 8600 3250
+Wire Wire Line
+	9250 3100 10200 3100
+Wire Wire Line
+	9650 3100 9650 2900
+Wire Wire Line
+	3950 4450 4250 4450
+Connection ~ 4250 4850
+Wire Wire Line
+	3950 4750 3850 4750
+Wire Wire Line
+	3850 4750 3850 4850
+Wire Wire Line
+	3500 4850 3950 4850
+Wire Wire Line
+	3500 4850 3500 5400
+Connection ~ 3850 4850
+Wire Wire Line
+	3500 5400 3550 5400
+Wire Wire Line
+	10200 3100 10200 3400
+Connection ~ 9650 3100
+Wire Wire Line
+	10200 3700 10200 3850
+Wire Wire Line
+	10200 4150 10200 5100
+Wire Wire Line
+	8400 3750 8700 3750
+Wire Wire Line
+	8400 4050 8400 4350
+Wire Wire Line
+	8400 4650 8400 4750
+Wire Wire Line
+	8400 4750 8750 4750
+Wire Wire Line
+	8750 4750 8750 4350
+Wire Wire Line
+	8750 4350 8950 4350
+Wire Wire Line
+	8950 4650 8950 5050
+Wire Wire Line
+	8950 5050 8600 5050
+Wire Wire Line
+	4250 4450 4250 5250
+Wire Wire Line
+	4250 5250 4100 5250
+Wire Wire Line
+	4300 3200 4300 3850
+Wire Wire Line
+	4150 2900 4300 2900
+Connection ~ 4150 3050
+Wire Wire Line
+	4100 5250 4100 5550
+$Comp
+L BatteryCell2x BT1
+U 1 1 5A919465
+P 8650 3900
+F 0 "BT1" H 8500 3950 50  0000 L CNN
+F 1 "BatteryCell2x" H 8250 4200 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:BAT_HOLDER_AAA_DOUBLE" V 8400 3910 50  0001 C CNN
+F 3 "" V 8400 3910 50  0001 C CNN
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3250 8600 3550
+Wire Wire Line
+	8600 3550 8950 3550
+Wire Wire Line
+	8950 3550 8950 3750
+Wire Wire Line
+	8950 4150 8950 4050
+Wire Wire Line
+	8700 3750 8700 4150
+Wire Wire Line
+	8700 4150 8950 4150
+$EndSCHEMATC

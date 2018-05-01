@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ChaosLooper-rescue)(type Legacy)(uri ${KIPRJMOD}/ChaosLooper-rescue.lib)(options "")(descr ""))
+  (lib (name GaudiLabsPartsLibrary)(type Legacy)(uri /home/gaudi/Documents/Projekte/KiCadLibrary/GaudiLabsPartsLibrary.lib)(options "")(descr ""))
+)

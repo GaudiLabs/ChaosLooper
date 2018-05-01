@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Switch-RESCUE-ChaosLooper
+#
+DEF Switch-RESCUE-ChaosLooper SW 0 40 Y Y 1 F N
+F0 "SW" -200 300 60 H V C CNN
+F1 "Switch-RESCUE-ChaosLooper" 200 300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -150 0 25 0 1 0 N
+C 125 0 25 0 1 0 N
+C 125 125 25 0 1 0 N
+P 2 0 1 0 -125 0 75 125 N
+P 4 0 1 0 -50 100 -25 125 0 100 -50 100 N
+P 6 0 1 0 -25 100 -25 25 -50 25 -25 0 0 25 -25 25 N
+X ~ 1 -275 0 100 R 50 50 1 1 I
+X ~ 2 250 125 100 L 50 50 1 1 I
+X ~ 3 250 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
